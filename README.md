@@ -5,6 +5,10 @@ Optimisation d'un site existant avec deux objectifs principaux :
 - améliorer le **SEO**
 - améliorer l'**accessibilité web**
 
+## Page de démonstration
+
+Le rendu de ce code est accessible sur cette [GitHub Page dédiée](https://logic-fabric.github.io/la-chouette-agence/).
+
 ## Audit _Google Lighthouse_ initial
 
 ![Audit _Google Lighthouse_ du 11 juin 2021](./doc/2021-06-11-lighthouse-audit.png)
