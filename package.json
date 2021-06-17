@@ -7,7 +7,8 @@
     "doc": "doc"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "node ./node_modules/gulp/bin/gulp.js watch",
+    "buildCSS": "node ./node_modules/gulp/bin/gulp.js buildCSS"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/logic-fabric/la-chouette-agence#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^6.0.0"
   }
 }
