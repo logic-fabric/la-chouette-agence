@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 
 <html lang="fr">
-  <%- include(
-      'parts/head.ejs', 
-      { title: "La chouette agence | Le web design sur Lyon" }
-    ) 
+  <%- include( 'parts/head.ejs', { 
+    title: "La chouette agence | Le web design sur Lyon" } ) 
   %>
 
   <body>
     <div class="page-container">
-      <%- include(
-          'parts/layout/header.ejs',
-          { activeLink: "accueil" }
-        )
-      %>
+      <%- include( 'parts/layout/header.ejs', { activeLink: "accueil" } ) %>
 
       <main>
         <!-- HERO BANNER: -->
@@ -28,7 +22,6 @@
             texture-paper
             b-parallax
           "
-          id="bloc-1-hero"
         >
           <div class="container bloc-lg">
             <div class="row tight-width-whitespace">
@@ -40,7 +33,7 @@
                   width="100"
                 />
 
-                <h1 class="text-center hero-bloc-text tc-white">
+                <h1 class="c-banner__title text-center hero-bloc-text tc-white">
                   La chouette agence
                   <br />
                   la référence du web design à Lyon
@@ -65,7 +58,7 @@
         </section>
 
         <!-- SERVICES -->
-        <section class="bloc bgc-white l-bloc" id="bloc-2-services">
+        <section class="bloc bgc-white l-bloc">
           <div class="container bloc-md">
             <div class="row">
               <div class="col-sm-12 text-center">
@@ -182,7 +175,6 @@
             texture-paper
             b-parallax
           "
-          id="bloc-3-what-i-do"
         >
           <div class="container bloc-lg">
             <div class="row tight-width-whitespace black-background">
@@ -227,7 +219,6 @@
         <!-- PORTFOLIO: -->
         <section
           class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc"
-          id="bloc-4-portfolio"
         >
           <div class="container bloc-lg">
             <div class="row">
@@ -354,7 +345,6 @@
             bloc-bg-texture
             texture-paper
           "
-          id="bloc-5-cta"
         >
           <div class="container bloc-lg">
             <div class="row">
